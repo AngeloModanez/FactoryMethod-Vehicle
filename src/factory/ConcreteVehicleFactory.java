@@ -5,10 +5,10 @@ import factory.motorcycle.Motorcycle;
 import factory.truck.Truck;
 
 public class ConcreteVehicleFactory implements VehicleFactory {
-    
+
     @Override
     public Vehicle createVehicle(String Vehicle) {
-        switch (Vehicle){
+        switch (Vehicle) {
             case "Car":
                 return new Car();
             case "Truck":
